@@ -1,0 +1,18 @@
+<form [ngFormModel]="form" (ngSubmit)="onSubmit(form.value)">
+    <span>Total:</span>
+    <input type="number" name="total" id="name" required
+        ngControl="total"
+        #name="ngForm">
+    <span>price:</span>
+    <input type="number" name="price" id="name" required
+        ngControl="price"
+        #name="ngForm">
+    <span>Litres:</span>
+    <input type="number" name="litres" id="name" required
+        ngControl="litres"
+        #name="ngForm">
+    <span>Odometer:</span>
+    <input type="number" name="odometer" id="name" required
+        ngControl="odometer"
+        #name="ngForm">
+</form>
