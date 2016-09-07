@@ -5,9 +5,14 @@ ul {
 }
 
 ul li {
-    margin: 0px;
+    margin: 2px 2px 2px 20px;
 }
 
 .column1 {
     width:100px;
+    display: inline-block;
+}
+
+.right {
+    text-align: right;
 }
